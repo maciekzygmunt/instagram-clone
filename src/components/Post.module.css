@@ -1,0 +1,68 @@
+.mainContainer {
+  background: white;
+  margin: 1.75rem 0;
+  border: 1px solid #e5e7eb;
+}
+
+.headerContainer {
+  display: flex;
+  align-items: center;
+  padding: 1.25rem;
+}
+
+.userPicture {
+  border-radius: 9999px;
+  height: 3rem;
+  width: 3rem;
+  object-fit: contain;
+  border: 1px solid #e5e7eb;
+  padding: 0.25rem;
+  margin-right: 0.75rem;
+}
+
+.username {
+  flex: 1 1 0%;
+  font-weight: 700;
+}
+
+.dotsIcon {
+  height: 1.25rem;
+}
+
+.image {
+  object-fit: cover;
+  width: 100%;
+}
+
+.iconsContainer {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 1rem;
+  padding-top: 1rem;
+}
+
+.leftIconsContainer {
+  display: flex;
+  gap: 1rem;
+}
+
+.icon {
+  height: 1.75rem;
+  transition: all 150ms ease-out;
+  cursor: pointer;
+}
+.icon:hover {
+  transform: scale(1.25);
+}
+
+.captionContainer {
+  padding: 1.25rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.captionContainer span {
+  font-weight: 700;
+  margin-right: 0.25rem;
+}
