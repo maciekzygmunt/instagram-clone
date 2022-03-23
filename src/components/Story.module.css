@@ -1,0 +1,23 @@
+.image {
+  height: 3.5rem;
+  width: 3.5rem;
+  border-radius: 9999px;
+  padding: 1.5px;
+  border: 2px solid #ef4444;
+  object-fit: contain;
+  cursor: pointer;
+  transition: transform 200ms ease-out;
+}
+
+.image:hover {
+  transform: scale(1.1);
+}
+
+.username {
+  font-size: 0.75rem;
+  width: 3.5rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  text-align: center;
+}

@@ -1,0 +1,9 @@
+.mainDiv {
+  background: #f9fafb;
+  height: 100vh;
+  overflow-y: scroll;
+}
+
+.mainDiv::-webkit-scrollbar {
+  display: none;
+}
