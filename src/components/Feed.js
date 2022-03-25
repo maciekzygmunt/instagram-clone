@@ -1,6 +1,8 @@
 import Stories from './Stories';
 import classes from './Feed.module.css';
 import Posts from './Posts';
+import MiniProfile from './MiniProfile';
+import Suggestions from './Suggestions';
 
 function Feed() {
   return (
@@ -9,7 +11,12 @@ function Feed() {
         <Stories />
         <Posts />
       </section>
-      <section></section>
+      <section className={classes.rightSection}>
+        <div className={classes.miniSection}>
+          <MiniProfile />
+          {/* <Suggestions /> */}
+        </div>
+      </section>
     </main>
   );
 }

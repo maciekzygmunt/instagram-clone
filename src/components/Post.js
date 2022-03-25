@@ -34,6 +34,12 @@ function Post({ id, username, userImg, img, caption }) {
       <p className={classes.captionContainer}>
         <span>{username} </span> {caption}
       </p>
+
+      <form className={classes.form}>
+        <EmojiHappyIcon className={classes.icon} />
+        <input type="text" placeholder="Add a comment..." className={classes.commentInput} />
+        <button className={classes.commentButton}>Post</button>
+      </form>
     </div>
   );
 }

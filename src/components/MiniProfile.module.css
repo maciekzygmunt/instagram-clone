@@ -1,0 +1,30 @@
+.mainContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 3rem;
+  margin-left: 2.5rem;
+}
+
+.miniProfileImage {
+  border-radius: 9999px;
+  border: 1px solid #e5e7eb;
+  padding: 2px;
+  width: 4rem;
+  height: 4rem;
+}
+
+.username {
+  font-weight: 700;
+}
+
+.helloText {
+  font-size: 0.875rem;
+  color: #9ca3af;
+}
+
+.mainContainer button {
+  border: none;
+  background: none;
+  cursor: pointer;
+}
