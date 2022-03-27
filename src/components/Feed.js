@@ -14,7 +14,7 @@ function Feed() {
       <section className={classes.rightSection}>
         <div className={classes.miniSection}>
           <MiniProfile />
-          {/* <Suggestions /> */}
+          <Suggestions />
         </div>
       </section>
     </main>

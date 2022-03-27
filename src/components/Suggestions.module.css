@@ -1,0 +1,64 @@
+.mainContainer {
+  margin-top: 1rem;
+  margin-left: 2.5rem;
+}
+
+.infoContainer {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.875rem;
+  margin-bottom: 1.25rem;
+}
+
+.infoContainer h3 {
+  font-size: 0.875rem;
+  font-weight: 700;
+  color: #9ca3af;
+}
+
+.infoContainer button {
+  color: #4b5563;
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.profileContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 1.5rem;
+}
+
+.profileContainer img {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 9999px;
+  border: 1px solid #e5e7eb;
+  padding: 2px;
+}
+
+.profileInfoContainer {
+  flex: 1 1 0%;
+  margin-left: 1rem;
+}
+
+.profileInfoContainer h2 {
+  font-weight: 600;
+  font-size: 0.875rem;
+}
+
+.profileInfoContainer h3 {
+  font-size: 0.75rem;
+  color: #9ca3af;
+}
+
+.followButton {
+  color: #60a5fa;
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-size: 0.75rem;
+  font-weight: 700;
+}
