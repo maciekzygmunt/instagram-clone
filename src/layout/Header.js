@@ -45,7 +45,7 @@ function Header() {
           <HeartIcon className={classes.icon} />
 
           <img
-            src="https://links.papareact.com/3ke"
+            src="https://ocdn.eu/images/pulscms/NjY7MDA_/49a555aecd9586df853c8007a6d5c15d.jpg"
             alt="profile pic"
             className={classes.profilePicture}
           />

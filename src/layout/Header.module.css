@@ -115,8 +115,10 @@
 
 .profilePicture {
   height: 2.5rem;
+  width: 2.5rem;
   border-radius: 1.25rem;
   cursor: pointer;
+  object-fit: cover;
 }
 
 @media (min-width: 48rem) {

@@ -15,7 +15,7 @@ function MiniProfile() {
     <div className={classes.mainContainer}>
       <img
         className={classes.miniProfileImage}
-        src="https://links.papareact.com/3ke"
+        src="https://ocdn.eu/images/pulscms/NjY7MDA_/49a555aecd9586df853c8007a6d5c15d.jpg"
         alt="mini profile pic"
       />
       <div className={classes.infoContainer}>

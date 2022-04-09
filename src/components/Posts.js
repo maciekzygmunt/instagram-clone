@@ -1,5 +1,7 @@
 import classes from './Posts.module.css';
 import Post from './Post';
+import { faker } from '@faker-js/faker';
+import { useEffect, useState } from 'react';
 
 const posts = [
   {
@@ -19,6 +21,18 @@ const posts = [
 ];
 
 function Posts() {
+  const [posts, setPosts] = useState([]);
+
+  useEffect(() => {
+    const postsFaker = [...Array(5)].map((_, i) => ({
+      ...faker.helpers.contextualCard(),
+      id: i,
+    }));
+    console.log(postsFaker);
+
+    setPosts(postsFaker);
+  }, []);
+
   return (
     <div>
       {posts.map((post) => (
@@ -26,9 +40,9 @@ function Posts() {
           key={post.id}
           id={post.id}
           username={post.username}
-          userImg={post.userImg}
-          img={post.img}
-          caption={post.caption}
+          userImg={post.avatar}
+          img={post.avatar}
+          caption={post.address.city}
         />
       ))}
     </div>
